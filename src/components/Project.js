@@ -1,4 +1,4 @@
-const Project = () => {
+const Project = ({ project }) => {
   return <div>Project</div>;
 };
 

@@ -1,11 +1,9 @@
 import { useRef } from "react";
-import useHoverEffect from "../hooks/useHoverEffect";
+import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  // img1: "https://ibb.co/YNHc8hZ",
-  // img2: "https://ibb.co/51DjYX7",
-  img1: "https://images.unsplash.com/photo-1622281631389-59e63d92760d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmVhdXRpZnVsJTIwbGFkeXxlbnwwfHwwfHw%3D&w=1000&q=80",
-  img2: "https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJlYXV0aWZ1bCUyMHdvbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+  img1: "https://miro.medium.com/max/789/1*VuHHLNybsBtGqesu8ZqSHA.jpeg",
+  img2: "https://thumbs.dreamstime.com/b/smart-young-businesswoman-laptop-21535031.jpg",
 };
 
 const Hero = () => {

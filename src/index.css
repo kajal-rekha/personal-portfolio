@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Cosi Azure";
-  src: url(./assets/fonts/CosiAzure.ttf);
+  src: url(./assets/fonts/CosiAzure-Bold.ttf);
 }
 
 :root {
@@ -119,4 +119,10 @@ body {
 .circle-right {
   bottom: -40%;
   right: -20%;
+}
+
+.section-title {
+  font-family: "Cosi Azure", sans-serif;
+  font-size: 10rem;
+  line-height: 1;
 }
