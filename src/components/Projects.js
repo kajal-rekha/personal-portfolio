@@ -29,6 +29,7 @@ const data = [
     tools: ["React.js", " React Router", "Tailwind CSS"],
     liveLink: "https://foodvarse.netlify.app/",
     frontEndLink: "https://github.com/kajal-rekha/foodvarse.git",
+    backendLink: "https://www.google.com",
   },
 ];
 

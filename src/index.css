@@ -71,7 +71,8 @@ body {
 .hero {
   position: relative;
 }
-.hero-img {
+.hero-img,
+.project-right {
   height: 500px;
   width: 500px;
   overflow: hidden;
