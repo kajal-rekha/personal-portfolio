@@ -36,8 +36,8 @@ const data = [
 
 const Projects = () => {
   return (
-    <div className="projects container mx-auto mt-40" id="project">
-      <SectionTitle title={"Projects"} />
+    <div className="projects container mx-auto mt-40" id="projects">
+      <SectionTitle title={"My Projects"} />
       <div className="projects-wrapper mt-40 flex flex-col gap-40">
         {data.map((project) => (
           <Project key={project.id} project={project} />
