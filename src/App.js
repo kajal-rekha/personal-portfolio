@@ -7,6 +7,8 @@ import Social from "./components/Social";
 import CustomCursor from "./components/CustomCursor";
 import { useRef } from "react";
 import { useCustomCursor } from "./hooks/useCustomCursor";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const innerCursorRef = useRef(null);
@@ -21,6 +23,7 @@ const App = () => {
         outerCursorRef={outerCursorRef}
       />
       <Navbar />
+      <ToastContainer />
       <Social />
       <Routes>
         <Route path="/" element={<Home />} />
