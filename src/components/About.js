@@ -24,7 +24,7 @@ const About = () => {
       <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left" ref={aboutLeftRef}></div>
         <div className="about-right" ref={aboutRightRef}>
-          <p>
+          <p className="mb-10">
             I am a front-end developer with a passion for creating user-friendly
             and visually appealing websites. I have expertise in HTML, CSS,
             JavaScript, and React, and have a strong understanding of responsive
