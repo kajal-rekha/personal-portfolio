@@ -30,14 +30,13 @@ const data = [
     tools: ["React.js", " React Router", "Tailwind CSS"],
     liveLink: "https://foodvarse.netlify.app/",
     frontEndLink: "https://github.com/kajal-rekha/foodvarse.git",
-    backendLink: "https://www.google.com",
   },
 ];
 
 const Projects = () => {
   return (
     <div className="projects container mx-auto mt-40" id="projects">
-      <SectionTitle title={"My Projects"} />
+      <SectionTitle title={"Projects"} />
       <div className="projects-wrapper mt-40 flex flex-col gap-40">
         {data.map((project) => (
           <Project key={project.id} project={project} />

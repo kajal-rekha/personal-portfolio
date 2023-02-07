@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useProjectLeftRightReveal } from "../hooks/gsap";
 import useHoverEffect from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
 
@@ -9,16 +10,20 @@ const data = {
 
 const About = () => {
   const aboutLeftRef = useRef(null);
+  const aboutRightRef = useRef(null);
+
+  const abouts = [aboutLeftRef, aboutRightRef];
 
   useHoverEffect(aboutLeftRef, data.img1, data.img2);
+  useProjectLeftRightReveal(abouts);
 
   return (
     <div className="about container mx-auto mt-40 " id="about">
       <SectionTitle title={"About"} />
 
-      <div className="about-wrapper mt-40 grid grid-cols-2 gap-20 overflow-hidden">
+      <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left" ref={aboutLeftRef}></div>
-        <div className="about-right">
+        <div className="about-right" ref={aboutRightRef}>
           <p>
             I am a front-end developer with a passion for creating user-friendly
             and visually appealing websites. I have expertise in HTML, CSS,
@@ -36,7 +41,7 @@ const About = () => {
             needs of my clients and their users.
           </p>
           <a
-            href="https://www.google.com"
+            href="https://docs.google.com/document/d/1EMSJU63KL6L1NDfXlTS9F_nWjINVLwZhYC0BuyFrA9w/edit?usp=sharing"
             target="_blank"
             rel="noreferrrer"
             className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:border-cyan-400/20 hover:bg-cyan-400/20 duration-500"

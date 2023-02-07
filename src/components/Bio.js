@@ -1,7 +1,13 @@
+import { useRef } from "react";
+import { useBioReveal } from "../hooks/gsap";
+
 const Bio = () => {
+  const bioRef = useRef(null);
+
+  useBioReveal(bioRef, 2);
   return (
     <div className="bio mt-20 container mx-auto overflow-hidden">
-      <p>
+      <p ref={bioRef}>
         I am a front-end developer with a passion for creating user-friendly and
         visually appealing websites. I have expertise in HTML, CSS, JavaScript,
         and React, and have a strong understanding of responsive design and
