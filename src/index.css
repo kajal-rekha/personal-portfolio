@@ -15,12 +15,12 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
   height: 10%;
-  background-color: rgba(247, 274, 247, 0.5);
+  background-color: #22d3ee;
   border-radius: 50px;
 }
 

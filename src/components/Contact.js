@@ -75,7 +75,7 @@ const Contact = () => {
             placeholder="Write your name"
             name="fullname"
             required
-            className="fullname bg-transparent border py-16 px-28 rounded-full border-cyan-400 duration-500 w-full"
+            className="fullname bg-transparent border outline-none  py-16 px-28 rounded-full border-cyan-400 duration-500 w-full"
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -85,7 +85,7 @@ const Contact = () => {
             placeholder="Write your email"
             name="email"
             required
-            className="email bg-transparent border py-16 px-28 rounded-full border-cyan-400 duration-500 w-full"
+            className="email bg-transparent border py-16 px-28 outline-none rounded-full border-cyan-400 duration-500 w-full"
           />
         </div>
         <div className="form-control overflow-hidden">
