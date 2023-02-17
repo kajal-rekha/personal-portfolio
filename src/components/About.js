@@ -4,7 +4,7 @@ import useHoverEffect from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
 
 const data = {
-  img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676059303/git2_fwllmi.jpg",
+  img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676659353/git_ezxxkm.jpg",
   img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676059221/git_m6zhkt.jpg",
 };
 
