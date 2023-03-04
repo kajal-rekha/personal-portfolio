@@ -4,8 +4,8 @@ import useHoverEffect from "../hooks/useHoverEffect";
 import SectionTitle from "./SectionTitle";
 
 const data = {
-  img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676659353/git_ezxxkm.jpg",
-  img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676059221/git_m6zhkt.jpg",
+  img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1677945670/Screenshot_40_kira3t.png",
+  img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1676659353/git_ezxxkm.jpg",
 };
 
 const About = () => {
