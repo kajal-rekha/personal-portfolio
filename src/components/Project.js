@@ -29,6 +29,7 @@ const Project = ({ project }) => {
             <span key={i}>{tool}</span>
           ))}
         </span>
+
         <div className="flex gap-8 flex-wrap">
           <a
             href={project.liveLink}
@@ -60,6 +61,7 @@ const Project = ({ project }) => {
           )}
         </div>
       </div>
+
       <div
         className="project-right lg:col-span-2 lg:justify-self-end row-start-1 lg:row-auto"
         ref={projectRightRef}
