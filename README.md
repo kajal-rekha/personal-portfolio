@@ -32,4 +32,4 @@ To get started with this project, follow these steps:
 5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the website.
 
 
-##Thanks for visiting this repository!
+## Thanks for visiting this repository!
