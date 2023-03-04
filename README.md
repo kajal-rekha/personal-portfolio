@@ -13,13 +13,13 @@ This is a personal portfolio website built using React, GSAP, WebGL, React Toast
 
 ## Tools Used
 
-#• React: A popular JavaScript library for building user interfaces
-#• GSAP: A high-performance animation library for creating smooth and interactive animations
-#• WebGL: A JavaScript API for rendering 3D graphics within a web browser
-#• React Toastify: A simple and customizable toast notification system for React applications
-#• @studio freig/lenis: A collection of ready-to-use Three.js scenes and shaders for web designers
-#• Three.js: A cross-browser JavaScript library for creating and displaying 3D computer graphics
-#• Tailwind CSS: A utility-first CSS framework for building responsive and customizable UIs
+- React: A popular JavaScript library for building user interfaces
+- GSAP: A high-performance animation library for creating smooth and interactive animations
+- WebGL: A JavaScript API for rendering 3D graphics within a web browser
+- React Toastify: A simple and customizable toast notification system for React applications
+- @studio freig/lenis: A collection of ready-to-use Three.js scenes and shaders for web designers
+- Three.js: A cross-browser JavaScript library for creating and displaying 3D computer graphics
+- Tailwind CSS: A utility-first CSS framework for building responsive and customizable UIs
 
 ## Installation
 
