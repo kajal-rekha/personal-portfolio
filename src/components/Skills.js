@@ -13,34 +13,67 @@ const data = [
   },
   {
     id: 3,
-    title: "Bootstrap",
-  },
-  {
-    id: 4,
-    title: "Tailwind CSS",
-  },
-  {
-    id: 5,
     title: "JavaScript",
   },
   {
-    id: 6,
+    id: 4,
     title: "React.js",
   },
   {
+    id: 5,
+    title: "Next.js",
+  },
+  {
+    id: 6,
+    title: "Express.js",
+  },
+  {
     id: 7,
-    title: "React Router",
+    title: "Node.js",
   },
   {
     id: 8,
-    title: "Redux",
+    title: "MongoDB",
   },
   {
     id: 9,
-    title: "GSAP",
+    title: "Redux",
   },
   {
     id: 10,
+    title: "Redux Toolkit",
+  },
+  {
+    id: 11,
+    title: "React Router",
+  },
+  {
+    id: 12,
+    title: "JWT",
+  },
+  {
+    id: 13,
+    title: "Axios",
+  },
+  {
+    id: 14,
+    title: "React Hooks",
+  },
+
+  {
+    id: 15,
+    title: "Bootstrap",
+  },
+  {
+    id: 16,
+    title: "Tailwind CSS",
+  },
+  {
+    id: 17,
+    title: "GSAP",
+  },
+  {
+    id: 18,
     title: "Firebase",
   },
 ];
