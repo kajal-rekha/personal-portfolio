@@ -4,6 +4,27 @@ import SectionTitle from "./SectionTitle";
 const data = [
   {
     id: 1,
+    title: "Cordemy - An Online Learning Platform",
+    img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1687459898/Screenshot_53_lcf8zk.png",
+    img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1687459922/Screenshot_55_a4ph8q.png",
+    description:
+      "Cordemy is an innovative online learning platform that provides a unique and immersive educational experience. It leverages a powerful tech stack, including Next.js, React, Prisma, Stripe, NextAuth, Tailwind CSS, clsx, and Axios, to deliver a feature-rich platform for learners and instructors.",
+    tools: [
+      "Next.js",
+      "Prisma",
+      "Stripe",
+      "NextAuth",
+      "Axios",
+      "Mongodb",
+      "Tailwind CSS",
+      "Context-api",
+    ],
+    liveLink: "https://cordemy-theta.vercel.app",
+    frontEndLink: "https://github.com/kajal-rekha/cordemy.git",
+    backendLink: "https://github.com/kajal-rekha/cordemy.git",
+  },
+  {
+    id: 2,
     title: "Proxima - A Powerful Project Management App",
     img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1677934511/Screenshot_33_b3fq76.png",
     img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1677934525/Screenshot_35_f60au2.png",
@@ -23,7 +44,7 @@ const data = [
     backendLink: "https://github.com/kajal-rekha/proxima-server.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "Tech Alph _ An Ecommerce Website",
     img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1677934825/Screenshot_36_efvmrv.png",
     img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1675278769/Screenshot_2_xgqpc2.png",
@@ -41,7 +62,7 @@ const data = [
     frontEndLink: "https://github.com/kajal-rekha/tech-alpha.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "Foodvarse _ A Recipe Finder Web Application",
     img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1675278752/Screenshot_4_rfupr3.png",
     img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1675278735/Screenshot_5_tkwlqi.png",
