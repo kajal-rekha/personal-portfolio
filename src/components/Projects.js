@@ -60,6 +60,7 @@ const data = [
     ],
     liveLink: "https://tech-alpha-ecommerce.netlify.app/",
     frontEndLink: "https://github.com/kajal-rekha/tech-alpha.git",
+    backendLink: "https://github.com/kajal-rekha/tech-alpha-server.git",
   },
   {
     id: 4,
