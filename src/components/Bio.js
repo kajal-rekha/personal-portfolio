@@ -10,11 +10,11 @@ const Bio = () => {
       <p ref={bioRef}>
         I am a mern stack developer with a passion for creating user-friendly
         and visually appealing websites. I have expertise in HTML, CSS,
-        JavaScript, and React, and have a strong understanding of responsive
-        design and cross-browser compatibility. I stay up-to-date with the
-        latest development trends and techniques to ensure that my projects are
-        up to industry standards. My goal is to deliver a seamless user
-        experience that meets and exceeds the needs of my clients and their
+        JavaScript, React, Next.js, TypeScript and have a strong understanding
+        of responsive design and cross-browser compatibility. I stay up-to-date
+        with the latest development trends and techniques to ensure that my
+        projects are up to industry standards. My goal is to deliver a seamless
+        user experience that meets and exceeds the needs of my clients and their
         users.
       </p>
     </div>
