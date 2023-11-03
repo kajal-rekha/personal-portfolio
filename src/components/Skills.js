@@ -37,43 +37,51 @@ const data = [
   },
   {
     id: 9,
-    title: "Redux",
+    title: "MongoDB",
   },
   {
     id: 10,
-    title: "Redux Toolkit",
+    title: "TypeScript",
   },
   {
     id: 11,
-    title: "React Router",
+    title: "NextAuth",
   },
   {
     id: 12,
-    title: "JWT",
+    title: "Redux Toolkit",
   },
   {
     id: 13,
-    title: "Axios",
+    title: "React Router",
   },
   {
     id: 14,
+    title: "JWT",
+  },
+  {
+    id: 15,
+    title: "Axios",
+  },
+  {
+    id: 16,
     title: "React Hooks",
   },
 
   {
-    id: 15,
-    title: "Bootstrap",
-  },
-  {
-    id: 16,
+    id: 17,
     title: "Tailwind CSS",
   },
   {
-    id: 17,
+    id: 18,
+    title: "Bootstrap",
+  },
+  {
+    id: 19,
     title: "GSAP",
   },
   {
-    id: 18,
+    id: 20,
     title: "Firebase",
   },
 ];
