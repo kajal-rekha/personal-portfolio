@@ -73,6 +73,18 @@ const data = [
     liveLink: "https://foodvarse.netlify.app/",
     frontEndLink: "https://github.com/kajal-rekha/foodvarse.git",
   },
+  {
+    id: 5,
+    title: "React Todo App _ A simple Todo application",
+    img1: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1699009093/kajal-todo-app.netlify.app__eamdve.png",
+    img2: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1699009093/kajal-todo-app.netlify.app__eamdve.png",
+    description:
+      "This is a React Todo application built using React and Tailwind CSS. Features include the ability to create, update, and delete todo items, making task management a breeze. With its clean and intuitive design, it's easy to stay organized and on top of your tasks.  ",
+    tools: ["React.js", "Tailwind CSS"],
+    liveLink: "https://kajal-todo-app.netlify.app/",
+    frontEndLink: "https://github.com/kajal-rekha/react-todo-app.git",
+    backendLink: "https://github.com/kajal-rekha/todo-app-server.git",
+  },
 ];
 
 const Projects = () => {
