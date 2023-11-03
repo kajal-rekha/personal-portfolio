@@ -41,7 +41,7 @@ const About = () => {
             needs of my clients and their users.
           </p>
           <a
-            href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1so6EO8vkXgey9o_dtbgip-HqkucoImbt/view?usp=sharing"
             target="_blank"
             rel="noreferrrer"
             className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:border-cyan-400/20 hover:bg-cyan-400/20 duration-500"

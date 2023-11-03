@@ -15,7 +15,7 @@ const data = [
   {
     id: 3,
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/kajal-rekha-81262b264/",
+    url: "https://www.linkedin.com/in/kajal-rekha/",
   },
   {
     id: 4,
@@ -25,7 +25,7 @@ const data = [
   {
     id: 5,
     title: "Twitter",
-    url: "https://twitter.com/KajalRekha14",
+    url: "https://twitter.com/kajalreka",
   },
 ];
 
