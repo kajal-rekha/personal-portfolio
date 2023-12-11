@@ -96,7 +96,7 @@ const Contact = () => {
             required
             rows="1"
             cols="30"
-            className="message bg-transparent border py-16 px-28 rounded-full border-cyan-400  outline-none duration-500 w-full "
+            className="message bg-transparent border py-16 px-28 rounded-full border-cyan-400  outline-none duration-500 w-full resize-none "
           />
         </div>
         <div className="form-control overflow-hidden">
