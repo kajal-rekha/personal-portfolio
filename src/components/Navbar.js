@@ -29,42 +29,42 @@ const Navbar = ({ footerNav }) => {
       }  uppercase`}
     >
       <div>
-        <HashLink smooth to="#home" ref={linkRef1} className="link-item">
+        <HashLink smooth to='#home' ref={linkRef1} className='link-item'>
           {footerNav ? "Go to top" : "Kajal Rekha"}
         </HashLink>
       </div>
-      <ul className="links flex flex-col gap-3">
+      <ul className='links flex flex-col gap-3'>
         <li>
-          <HashLink smooth to="#home" className="link-item" ref={linkRef2}>
+          <HashLink smooth to='#home' className='link-item' ref={linkRef2}>
             Home
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="#projects" className="link-item" ref={linkRef3}>
+          <HashLink smooth to='#projects' className='link-item' ref={linkRef3}>
             Projects
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="#skills" className="link-item" ref={linkRef4}>
+          <HashLink smooth to='#skills' className='link-item' ref={linkRef4}>
             Skills
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="#about" className="link-item" ref={linkRef5}>
+          <HashLink smooth to='#about' className='link-item' ref={linkRef5}>
             About
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="#contact" className="link-item" ref={linkRef6}>
+          <HashLink smooth to='#contact' className='link-item' ref={linkRef6}>
             Contact
           </HashLink>
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1e1YbUtcG9fBw8902Mjv94-L5C9mMPAXT/view?usp=drive_link"
-            target="_blank"
-            rel="noreferrrer"
-            className="link-item"
+            href='https://drive.google.com/file/d/1ehfsirZ6gQNlEthy-updjqyo71imsGL-/view?usp=sharing'
+            target='_blank'
+            rel='noreferrrer'
+            className='link-item'
             ref={linkRef7}
           >
             Resume

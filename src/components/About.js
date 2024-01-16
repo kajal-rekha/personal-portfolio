@@ -18,13 +18,13 @@ const About = () => {
   useProjectLeftRightReveal(abouts);
 
   return (
-    <div className="about container mx-auto mt-40 " id="about">
+    <div className='about container mx-auto mt-40 ' id='about'>
       <SectionTitle title={"About"} />
 
-      <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
-        <div className="about-left" ref={aboutLeftRef}></div>
-        <div className="about-right" ref={aboutRightRef}>
-          <p className="mb-10">
+      <div className='about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden'>
+        <div className='about-left' ref={aboutLeftRef}></div>
+        <div className='about-right' ref={aboutRightRef}>
+          <p className='mb-10'>
             I am a mern stack developer with a passion for creating
             user-friendly and visually appealing websites. I have expertise in
             HTML, CSS, JavaScript, React, Next.js, TypeScript and have a strong
@@ -41,10 +41,10 @@ const About = () => {
             needs of my clients and their users.
           </p>
           <a
-            href="https://drive.google.com/file/d/1so6EO8vkXgey9o_dtbgip-HqkucoImbt/view?usp=sharing"
-            target="_blank"
-            rel="noreferrrer"
-            className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:border-cyan-400/20 hover:bg-cyan-400/20 duration-500"
+            href='https://drive.google.com/file/d/1ehfsirZ6gQNlEthy-updjqyo71imsGL-/view?usp=sharing'
+            target='_blank'
+            rel='noreferrrer'
+            className='inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:border-cyan-400/20 hover:bg-cyan-400/20 duration-500'
           >
             Resume
           </a>
