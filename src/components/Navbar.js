@@ -61,7 +61,7 @@ const Navbar = ({ footerNav }) => {
         </li>
         <li>
           <a
-            href='https://drive.google.com/file/d/1ehfsirZ6gQNlEthy-updjqyo71imsGL-/view?usp=sharing'
+            href='https://drive.google.com/file/d/1xiF7U9o9bANl_bYsC60SEDqxPuu1sy_3/view?usp=sharing'
             target='_blank'
             rel='noreferrrer'
             className='link-item'
